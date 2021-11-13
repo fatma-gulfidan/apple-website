@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpeg");
+    background-size: 100%; 
+}
+nav{
+    height: 44px;
+    background: #000;
+}
+.menu{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    overflow: hidden;
+}
+.menu ul{
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li,
+.menu ul li a{
+    color: white;
+    line-height: 44px;
+    text-decoration: none;
+}
+.menu ul li .fa.fa-apple{
+    font-size: 20px;
+
+}
+.menu ul li a.menu-item{
+    transform: scale(1);
+    transition: 0,5s;
+    display: block;
+}
